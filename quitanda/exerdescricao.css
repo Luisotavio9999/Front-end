@@ -1,0 +1,36 @@
+.img{
+    height: 700px;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 200px;
+    border: solid 2px black;
+}
+.descricao{
+    margin-top: 180px;
+}
+.button{
+    margin: 8px;
+    margin-left: 0px;
+    padding-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.644);
+}
+.button-2{
+    margin: 8px;
+    margin-left: 0px;
+    padding-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.imagens{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: solid 2px black;
+}

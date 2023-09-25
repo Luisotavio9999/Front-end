@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        body{
+            color: rgb(149, 0, 255);
+            background: linear-gradient(-45deg, red, purple, blue);
+            background-size: 300% 300%;
+            animation: gradient 15s ease infinite;
+            height: 100%;
+        }
+        @keyframes gradient {
+            0%{
+                background-position: 0% 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0% 50%;
+            }
+        }
+
+        img{
+            height: 50px;
+        }
+    </style>
+
+</head>
+
+<body class="mt-5">
+
+    <div class="container">
+        <h1 class="text-center"> Lista de musicas </h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Foto</th>
+                    <th>Musica</th>
+                    <th>Artista</th>
+                    <th>Genero</th>
+                    <th>Duração</th>
+                    <th>Classificação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="align-middle">
+                    <td> #1</td>
+                    <td> <img src="/img/anirap 2.webp" alt=""></td>
+                    <td> Lobo/Morte entre a vida e a morte</td>
+                    <td> Anirap </td>
+                    <td> musica geek </td>
+                    <td> <i class="bi bi-star-fill text-warning  "></i>  <i class="bi bi-star-fill text-warning  "></i><i class="bi bi-star-fill text-warning  "></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i></td>
+                    
+                    <td>
+                        <i class="bi bi-brush-fill"></i>
+                        <i class="bi bi-bell-fill text-success"></i>
+                        <i class="bi bi-cart3 text-danger "></i>
+                    </td>
+                <tr class="align-middle">
+                    <td> #2 </td>
+                    <td> <img src="/img/download.jpg" alt=""></td>
+                    <td> Eu sou a lenda</td>
+                    <td> Takero </td>
+                    <td> musica geek </td>
+                    <td> <i class="bi bi-star-fill text-warning  "></i>  <i class="bi bi-star-fill text-warning  "></i><i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i></td>
+                    
+                    <td>
+                        <i class="bi bi-brush-fill"></i>
+                        <i class="bi bi-bell-fill text-success "></i>
+                        <i class="bi bi-cart3 text-danger "></i>
+                    </td>
+                <tr class="align-middle">
+                    <td> #3 </td>
+                    <td> <img src="https://yt3.googleusercontent.com/ytc/AOPolaS0iGUzw6DqYP_HhGYEK3C4DEYpG2ANQHIdzyII=s900-c-k-c0x00ffffff-no-rj" alt=""></td>
+                    <td> Shipudden</td>
+                    <td> 7 minutos </td>
+                    <td> musica geek </td>
+                    <td> <i class="bi bi-star-fill text-warning  "></i>  <i class="bi bi-star-fill text-warning  "></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning "></i> <i class="bi bi-star text-warning"></i></td>
+                    
+                    <td>
+                        <i class="bi bi-brush-fill"></i>
+                        <i class="bi bi-bell-fill text-success "></i>
+                        <i class="bi bi-cart3 text-danger "></i>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <ul class="pagination justify-content-center ">
+            <li class="page-item active ">
+                <a href="#" class="page-link"> Primeira </a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link"> 1 </a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link"> 2 </a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link"> 3 </a>
+            </li>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link"> ultima </a>
+            </li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>

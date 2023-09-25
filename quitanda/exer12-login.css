@@ -1,0 +1,32 @@
+main{
+    margin-left: 630px;
+    margin-right: 630px;
+    margin-bottom: 50px;
+}
+.principal{
+    margin-top: 10px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.input{
+    padding-bottom: 150px;
+}
+button{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.toloko{
+    display: flex;
+    padding: 5px;
+}

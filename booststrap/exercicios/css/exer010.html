@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exer010 </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+    
+    <nav class="navbar bg-primary navbar-dark navbar-expand-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <i class="bi bi-bootstrap-fill fs-2"> </i>
+                bootstrap
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="menu">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-link"> inicio </a>
+                    <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> atividades </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="/booststrap/01_botoes.html" class="dropdown-item"> botoes</a>
+                                <a href="/booststrap/01_botoes2.html" class="dropdown-item">  botoes2</a>
+                                <a href="/booststrap/02-siteresponsivo.html" class="dropdown-item">  siteresponsivel</a>
+                                <a href="/booststrap/03_icons.html" class="dropdown-item">  icons</a>
+                                <a href="/booststrap/04_formas.html" class="dropdown-item">  formas</a>
+                            </li> 
+
+                        </ul>
+
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> exercicios </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="exer001.css" class="dropdown-item">   exer001</a>
+                                <a href="exer002.html" class="dropdown-item">  exer002</a>
+                                <a href="exer003.html" class="dropdown-item">  exer003</a>
+                                <a href="exer004.html" class="dropdown-item">  exer004</a>
+                                <a href="exer005.html" class="dropdown-item">  exer005</a>
+                            </li> 
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </nav>
+    <br>
+    <main>
+    <!--Sessão do carossel-->
+    <section id="meucarrossel" class="carousel carousel-dark slide " data-bs-ride="carousel">
+        <!--indicadores do banner-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="1" class=""></button>
+            <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="2" class=""></button>
+            <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="3" class=""></button>
+        </div>
+        <!--lista de imagens - banner-->
+
+        <div class="carousel-inner">
+            <!--imagem-->
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="https://picsum.photos/1280/420?random=1" class="w-100 d-block">
+                <div class="carousel-caption">
+                    <h1> Primeiro </h1>
+                    <p> Algum texto </p>
+                    <button class="btn btn-primary"> Saiba mais</button>
+
+                </div>
+            </div>
+            <!--imagem2-->
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1280/420?random=2" class="w-100 d-block">
+
+            </div>
+            <!--imagem3-->
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1280/420?random=3" class="w-100 d-block">
+
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1280/420?random=4" class="w-100 d-block">
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#meucarrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#meucarrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </section>
+</main>
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"> </script>
+</html>

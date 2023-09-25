@@ -1,0 +1,36 @@
+.img-carrosel{
+    width: 1290px;
+    height: 500px;
+}
+.imgmain{
+    height: 200px;
+    width: 180px;
+    border-radius: 5px;
+}
+.card{
+    background-color: rgb(231, 231, 231) ;
+    padding-left: 7px;
+    padding-top: 4px;
+    margin-right: 2px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 550px;
+    width: 200px;
+    text-align: center;
+}
+.frutas{
+    background-color: darkgrey;
+    margin: 8px;
+    margin-left: 0px;
+    border-radius: 3px;
+}
+.button{
+    margin: 8px;
+    margin-left: 0px;
+    padding-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, 0.644);
+}
